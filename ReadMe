@@ -1,2 +1,0 @@
-Gradient Descent on sklearn make_moons dataset. 
-To get the dataset use "sklearn.datasets.make_moons"
