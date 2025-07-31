@@ -33,4 +33,3 @@ The notebook will:
 
 You can adapt the parameters `epochs` and `alpha` inside the notebook to
 experiment with the optimisation process.
-
