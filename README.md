@@ -1,8 +1,23 @@
 # Gradient-Descent
 
-Binary Classifier built on 1000 sample datapoints from sklearn.datasets.make_moons with Gaussian Noise.
+This project demonstrates a simple logistic regression classifier trained via
+gradient descent on the synthetic `make_moons` dataset from scikit‑learn.
 
-Make_moons is a 
-- A simple toy dataset to visualize clustering and classification algorithms.
-- It generates 2d binary classification datasets and they are useful for visualisation. 
-- It produces Gaussian data with a spherical decision boundary for binary classification.
+## Requirements
+
+- Python 3.10+
+- numpy
+- scikit-learn
+- matplotlib
+
+## Usage
+
+Run the demo script which will train the model and display evaluation metrics
+and plots:
+
+```bash
+python logistic_regression.py
+```
+
+You can adjust the learning rate or number of epochs by editing the parameters
+in `logistic_regression.py`.
